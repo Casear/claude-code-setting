@@ -1,0 +1,66 @@
+# Claude Code Ignore File
+# Excludes files/directories from Claude's context
+
+# Dependencies
+node_modules/
+vendor/
+.cargo/
+target/
+pkg/
+
+# Build outputs
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Large data files
+*.db
+*.sqlite
+*.csv
+*.json.gz
+
+# Generated files
+coverage/
+.nyc_output/
+*.lcov
+
+# Documentation builds
+docs/_build/
+site/
+
+# Package lock files (too large)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+Cargo.lock
+go.sum
+poetry.lock
