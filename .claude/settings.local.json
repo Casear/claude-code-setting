@@ -4,7 +4,11 @@
       "WebSearch",
       "WebFetch(domain:github.com)",
       "Bash(chmod:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: add complete multi-language Claude Code templates\n\nAdd comprehensive Claude Code optimization templates supporting 7 languages with intelligent detection, SDD workflow, modern CLI tools, and MCP integration.\n\n## Features\n\n### Core Configuration\n- 4 universal subagents (code-reviewer, security-scanner, performance-optimizer, documentation-agent)\n- 6 generic commands (analyze, refactor, docs generation)\n- 3 core hooks (security-check, session-init, inject-context)\n- Configuration templates (CLAUDE.md, .claudeignore)\n\n### Multi-Language Support (7 languages)\n- TypeScript/JavaScript - Full config with agents, commands, hooks\n- Python - CLAUDE.md + format command\n- Go - CLAUDE.md + development guidelines\n- Rust - CLAUDE.md + toolchain config\n- Java - CLAUDE.md + build tools\n- Elixir - CLAUDE.md + mix integration\n- Erlang - CLAUDE.md + rebar config\n\n### Smart Automation\n- scripts/init-project.sh - Auto-detect language and apply config\n- setup-tool.sh - Install modern CLI tools (macOS/Linux support)\n\n### Complete Documentation (9 guides)\n- README.md - Project homepage (6.7KB)\n- QUICK_START.md - 5-minute getting started\n- FAQ.md - Comprehensive Q&A\n- CONTRIBUTING.md - Contribution guide\n- PROJECT_SUMMARY.md - Complete project summary\n- guides/sdd-workflow.md - Spec-Driven Development tutorial\n- guides/hooks-guide.md - Hooks usage guide\n- guides/mcp-guide.md - MCP complete guide\n- MCP_RECOMMENDATIONS.md - 18+ recommended MCP servers\n\n### MCP Integration\n- Recommended 18+ MCP servers with installation commands\n- Organized by category (essential, database, dev tools, API, productivity, enterprise)\n- Quick setup scripts for different combos\n- Security and cost considerations\n\n### Key Capabilities\n- Intelligent language detection for 7 languages\n- SDD workflow (Requirements → Design → Tasks → Implementation)\n- Modern CLI tools integration (rg, fd, bat, eza, dust)\n- Custom subagents for specialized tasks\n- Custom commands for development workflow\n- Hooks automation (format, lint, security)\n- MCP ecosystem integration\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
