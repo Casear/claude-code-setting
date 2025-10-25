@@ -22,13 +22,15 @@ echo ""
 detect_language() {
   local dir="$1"
 
-  # TypeScript/JavaScript
+  # TypeScript
+  if [[ -f "$dir/package.json" ]] && grep -q "typescript" "$dir/package.json" 2>/dev/null; then
+    echo "typescript"
+    return
+  fi
+
+  # JavaScript (Node.js)
   if [[ -f "$dir/package.json" ]]; then
-    if grep -q "typescript" "$dir/package.json" 2>/dev/null; then
-      echo "typescript"
-    else
-      echo "javascript"
-    fi
+    echo "javascript"
     return
   fi
 

@@ -7,7 +7,7 @@
 ## 🎯 特色功能
 
 - ✅ **智慧語言檢測** - 自動識別專案類型並套用對應配置
-- ✅ **7 種語言支援** - TypeScript, Python, Go, Rust, Java, Elixir, Erlang
+- ✅ **8 種語言支援** - TypeScript, JavaScript, Python, Go, Rust, Java, Elixir, Erlang
 - ✅ **SDD 工作流程** - 內建 Spec-Driven Development 最佳實踐
 - ✅ **Modern CLI 工具** - 預設使用 ripgrep, fd, bat, eza, dust
 - ✅ **Custom Hooks** - 自動格式化、Lint、安全檢查
@@ -84,7 +84,8 @@ claude-code-templates/
 - [📝 CLAUDE.md 最佳實踐](docs/guides/claude-memory.md) - 記憶管理
 
 ### 語言專屬指南
-- [TypeScript/JavaScript](docs/language-specific/typescript.md)
+- [TypeScript](docs/language-specific/typescript.md)
+- [JavaScript/Node.js](docs/language-specific/javascript.md)
 - [Python](docs/language-specific/python.md)
 - [Go](docs/language-specific/go.md)
 - [Rust](docs/language-specific/rust.md)
