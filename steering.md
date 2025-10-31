@@ -1,9 +1,22 @@
 # Development Environment & Tools
 
+## 🤖 Important: Claude Code's Built-in Tools
+
+**Claude Code has optimized built-in tools that it uses automatically:**
+
+- **Grep tool**: Already uses ripgrep (rg) internally - faster and smarter than grep
+- **Glob tool**: Already optimized for fast pattern matching
+- **Read tool**: Already optimized for reading files efficiently
+
+**The modern CLI tools in this guide apply ONLY when:**
+- Claude uses the **Bash tool** directly for shell operations
+- You are working in a terminal outside of Claude Code
+- You want to maintain consistency in your development workflow
+
 ## ⚠️ CRITICAL: Modern CLI Tools Required
 
 This project uses modern CLI tools for better performance and developer experience.
-Claude MUST use these tools instead of traditional Unix commands.
+When using the Bash tool, Claude MUST use these tools instead of traditional Unix commands.
 
 ---
 
